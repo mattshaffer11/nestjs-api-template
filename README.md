@@ -7,6 +7,7 @@ A full configuration list is provided below.
 
 1. Follow the [instructions on GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create your repo.
 2. GitHub templates doesn't support automatic variable replacement, so the following files will need updated:
+   1. `package.json`: update package name
    1. `docker-compose.yml`: update database credentials
    2. `src/config/configuration.ts`: update database credentials
    3. `src/app.module.ts`: update swagger document title
